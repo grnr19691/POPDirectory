@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">POP Directory</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="favorites">Favorites</string>
+    <string name="information">Information</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="title_activity_artista_detail">artista_detail</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="title_activity_concert_information">concert_information</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_artist_activity">Artist_activity</string>
+</resources>

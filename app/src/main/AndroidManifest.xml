@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajanageswararao.popdirectory" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Artist_main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".secondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".Artist_detail"
+            android:label="Artist_detail" >
+        </activity>
+        <activity
+            android:name=".concert_information"
+            android:label="@string/title_activity_concert_information" >
+        </activity>
+        <activity
+            android:name=".Artist_activity"
+            android:label="@string/title_activity_artist_activity" >
+        </activity>
+    </application>
+
+</manifest>
